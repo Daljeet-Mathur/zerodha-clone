@@ -1,0 +1,37 @@
+.hero-section .Hero-heading{
+   
+    font-size: 44px;
+}
+
+.hero-section .Hero-text{
+    font-size: 20px;
+   
+}
+.hero-section {
+   text-align: center;
+}
+.hero-section img{
+    width: 55%;
+   
+}
+
+.trust-body h3{
+  font-size: 20px;
+}
+
+.trust-body{
+    margin-top: 50px;
+}
+.trust{
+    margin-top: 120px;
+}
+
+.trust-body p{
+        margin-top: 5px;
+    margin-bottom: 32px;
+    color: #666;
+}
+.trust-body p span{
+    color: #387ed1;
+        font-weight: 500;
+}
