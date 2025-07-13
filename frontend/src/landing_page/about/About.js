@@ -1,8 +1,16 @@
 import React from 'react';
-
+import Hero from './Hero';
+import Team from './Team';
+import "./About.css"
+import TeamMet from './TeamMet';
 
 function About() {
-    return ( <h1>About</h1>
+    return ( 
+        <>
+         <Hero />
+         <Team/>
+         <TeamMet/>
+        </>
      );
 }
 

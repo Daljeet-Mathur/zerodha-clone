@@ -10,14 +10,14 @@ function Footer() {
                         <img src='\images\images\logo.svg' style={{ width: "60%" }} />
                         <p className='my-3 copy'>&copy; 2010 - 2025, Zerodha Broking Ltd. <br></br> All rights reserved.</p>
                         <div className='social-icon'>
-                            <i class="fa-brands fa-x-twitter"></i>
-                            <i class="fa-brands fa-square-facebook"></i>
-                            <i class="fa-brands fa-instagram"></i>
-                            <i class="fa-brands fa-linkedin-in"></i>
+                            <i className="fa-brands fa-x-twitter"></i>
+                            <i className="fa-brands fa-square-facebook"></i>
+                            <i className="fa-brands fa-instagram"></i>
+                            <i className="fa-brands fa-linkedin-in"></i>
                             <hr></hr>
-                            <i class="fa-brands fa-youtube"></i>
-                            <i class="fa-brands fa-whatsapp"></i>
-                            <i class="fa-brands fa-telegram"></i>
+                            <i className="fa-brands fa-youtube"></i>
+                            <i className="fa-brands fa-whatsapp"></i>
+                            <i className="fa-brands fa-telegram"></i>
                         </div>
                     </div>
                     <div className='col-lg-2  '>

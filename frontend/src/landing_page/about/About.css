@@ -1,0 +1,53 @@
+.founderimg img {
+    height: 295px;
+    margin-bottom: 10px;
+    border-radius: 100%;
+    padding-top: 20px;
+}
+
+.founderimg {
+    text-align: center;
+
+}
+
+.people-body p a {
+    text-decoration: none;
+    padding: 0px 6px;
+}
+
+.founderimg h3 {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.founderimg h4 {
+    font-size: .9rem;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+.teammet img {
+  width: 67%;
+    border-radius: 100%;
+    margin-bottom: 10px;
+}
+
+.teammet h3 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+.teammet h4 {
+    font-size: .9rem;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+.teammet{
+    margin-bottom: 100px;
+}
