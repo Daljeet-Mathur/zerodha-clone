@@ -11,7 +11,7 @@ function HomePage() {
     <>
      <Hero />
      <Trust/>
-     <Pricing/>
+     <Pricing />
      <Education/>
      <OpenAccount/>
     </> );

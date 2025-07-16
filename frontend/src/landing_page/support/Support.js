@@ -1,8 +1,13 @@
 import React from 'react';
-
+import "./Support.css"
+import Hero from './Hero';
+import Ticket from './Ticket';
 
 function Support() {
-    return (  <h1>Support</h1>);
+    return ( <>
+     <Hero/>
+     <Ticket/>
+    </>);
 }
 
 export default Support;

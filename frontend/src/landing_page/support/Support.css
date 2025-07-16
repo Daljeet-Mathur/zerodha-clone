@@ -1,0 +1,79 @@
+.pricingsec h3,
+.pricingsec h1 {
+    color: #fff;
+}
+
+.pricingsec a {
+    color: #fff;
+}
+
+.pricingsec h3 {
+    font-size: 1.275rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.pricingsec h1 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+.pricingsec input {
+    display: inline;
+    width: 80%;
+    height: 58px;
+    width: 89%;
+    color: #222;
+    padding: 0;
+    padding-left: 20px;
+    margin: 0;
+    border: none;
+    vertical-align: bottom;
+    line-height: 2.3;
+    outline: none;
+}
+
+.pricingbackcolor {
+    background-color: #387ed1;
+}
+
+.search {
+    position: absolute;
+    right: 18px;
+    top: -15px;
+    color: #222;
+}
+
+.searchbox {
+    position: relative;
+}
+
+.pricingsec span {
+    color: #fff;
+}
+
+.Ticket a {
+    text-decoration: none;
+    display: block;
+    padding-left: 30px;
+    line-height: 2.5rem;
+    color: #387ed1;
+
+}
+
+.Ticket i {
+    padding-right: 10px;
+    font-size: 14px;
+}
+
+.tickethd {
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: #666;
+}

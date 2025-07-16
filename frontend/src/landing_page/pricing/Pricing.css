@@ -1,0 +1,12 @@
+.pricingpage h1{
+        font-size: 1.75rem;
+    line-height: 1.6;
+}
+.pricingpage p{
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+.pricingpage{
+    padding: 30px;
+}
