@@ -1,0 +1,14 @@
+# Node modules
+node_modules/
+.cache/
+.env
+
+# Build folders
+build/
+dist/
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+.vscode/
+*.log
