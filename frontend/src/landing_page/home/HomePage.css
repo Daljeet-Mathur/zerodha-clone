@@ -1,0 +1,78 @@
+.hero-section .Hero-heading {
+
+    font-size: 44px;
+}
+
+.hero-section .Hero-text {
+    font-size: 20px;
+
+}
+
+.hero-section {
+    text-align: center;
+}
+
+.hero-section img {
+    width: 55%;
+
+}
+
+.trust-body h3 {
+    font-size: 20px;
+}
+
+.trust-body {
+    margin-top: 50px;
+}
+
+.trust {
+    margin-top: 120px;
+}
+ p {
+  
+    color: #666;
+}
+.trust-body p {
+    margin-top: 5px;
+    margin-bottom: 32px;
+    color: #666;
+}
+
+.trust-body p span {
+    color: #387ed1;
+    font-weight: 500;
+}
+
+/* pricing section */
+ h1 {
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.pricing-hd h1 {
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.pricing-hd p {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.free p {
+    font-size: 10px;
+    margin: 0;
+    color: #666;
+    line-height: 16px;
+}
+
+.free {
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.edu-sec h1{
+    font-size: 2rem;
+    line-height: 1.5;
+}
