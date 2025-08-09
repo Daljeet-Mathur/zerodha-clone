@@ -38,8 +38,8 @@ app.use(bodyParser.json());
 
 
 const allowedOrigins = [
-  "https://my-dashbord.netlify.app/",
-  "https://zerodha-clone-6-9nwd.onrender.com"
+  "https://zerodha-clone-dashbord.onrender.com/", // dashboard 
+  "https://zerodha-clone-6-9nwd.onrender.com"     // frontend
 ];
 
 app.use(cors({
