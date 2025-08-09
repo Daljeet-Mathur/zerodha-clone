@@ -38,7 +38,7 @@ app.use(bodyParser.json());
 
 
 const allowedOrigins = [
-  "http://localhost:3000",
+  "https://my-dashbord.netlify.app/",
   "https://zerodha-clone-6-9nwd.onrender.com"
 ];
 
