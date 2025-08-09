@@ -8,7 +8,7 @@ const Orders = () => {
    const [addOders, setAddOders] = useState([]);
      
        useEffect(() => {
-         axios.get("http://localhost:3002/newOrder").then((res) => {
+         axios.get("https://zerodha-clone-2-jgdg.onrender.com").then((res) => {
           //  console.log(res.data);
            setAddOders(res.data);
          });

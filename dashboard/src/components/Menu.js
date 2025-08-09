@@ -8,7 +8,7 @@ const Menu = () => {
 const [username, setUsername] = useState("");
 
 useEffect(() => {
-  axios.get("http://localhost:3002/getuser", {
+  axios.get("https://zerodha-clone-2-jgdg.onrender.com/getuser", {
     withCredentials: true
   })
   .then(res => {
