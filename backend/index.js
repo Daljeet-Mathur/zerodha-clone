@@ -27,13 +27,24 @@ mongoose.connect(url)
 
 app.use(bodyParser.json());
 
+// app.use(cors({
+//   origin: [
+//     "https://zerodha-clone-6-9nwd.onrender.com/", // frontend app
+//     "https://my-dashbord.netlify.app/", // dashboard app
+//   ],
+//   methods: ["GET", "POST", "PUT", "DELETE"],
+//   credentials: true,
+// }));
+
+
+const allowedOrigins = [
+  "http://localhost:3000",
+  "https://zerodha-clone-6-9nwd.onrender.com"
+];
+
 app.use(cors({
-  origin: [
-    "https://zerodha-clone-6-9nwd.onrender.com/", // frontend app
-    "https://my-dashbord.netlify.app/", // dashboard app
-  ],
-  methods: ["GET", "POST", "PUT", "DELETE"],
-  credentials: true,
+  origin: allowedOrigins,
+  credentials: true
 }));
 
 
