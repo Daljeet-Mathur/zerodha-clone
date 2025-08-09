@@ -29,7 +29,7 @@ app.use(bodyParser.json());
 
 app.use(cors({
   origin: [
-    "https://myzerodhclone.netlify.app/", // frontend app
+    "https://zerodha-clone-6-9nwd.onrender.com/", // frontend app
     "https://my-dashbord.netlify.app/", // dashboard app
   ],
   methods: ["GET", "POST", "PUT", "DELETE"],
