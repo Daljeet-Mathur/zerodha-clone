@@ -42,7 +42,7 @@ const Login = () => {
       if (success) {
         handleSuccess(message);
         setTimeout(() => {
-        navigate("/");
+        window.location.href = "https://my-dashbord.netlify.app/";
         }, 1000);
       } else {
         handleError(message);
