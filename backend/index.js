@@ -72,8 +72,8 @@ app.use(express.urlencoded({ extended: true }));
 
 
 
-app.use("/", authRoute);
-
+// app.use("/auth", authRoute);
+app.use("/auth", require("./Routes/AuthRoute"));
 // app.get("/addHolding", async (req, res) => {
 //     let temdata = [
 //         {
