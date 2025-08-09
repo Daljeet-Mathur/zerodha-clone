@@ -25,27 +25,48 @@ mongoose.connect(url)
     });
 
 
-app.use(bodyParser.json());
-app.use(cookieParser());
-// app.use(cors({
-//   origin: [
-//     "https://zerodha-clone-6-9nwd.onrender.com/", // frontend app
-//     "https://my-dashbord.netlify.app/", // dashboard app
-//   ],
-//   methods: ["GET", "POST", "PUT", "DELETE"],
-//   credentials: true,
-// }));
-
-
+// ✅ Allowed Origins (NO slash at end)
 const allowedOrigins = [
-  "https://zerodha-clone-dashbord.onrender.com/", // dashboard 
-  "https://zerodha-clone-6-9nwd.onrender.com"     // frontend
+  "https://zerodha-clone-dashbord.onrender.com", // dashboard
+  "https://zerodha-clone-6-9nwd.onrender.com"    // frontend
 ];
 
-app.options('*', cors({
+// ✅ CORS Middleware - sabse upar rakho
+app.use(cors({
+  origin: function (origin, callback) {
+    // Allow requests without origin (like mobile apps, curl)
+    if (!origin) return callback(null, true);
+    if (allowedOrigins.includes(origin)) {
+      return callback(null, true);
+    } else {
+      return callback(new Error("Not allowed by CORS"));
+    }
+  },
+  credentials: true
+}));
+
+// ✅ Preflight request handle
+app.options("*", cors({
   origin: allowedOrigins,
   credentials: true
 }));
+
+
+
+app.use(bodyParser.json());
+app.use(cookieParser());
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
+// const allowedOrigins = [
+//   "https://zerodha-clone-dashbord.onrender.com", // dashboard 
+//   "https://zerodha-clone-6-9nwd.onrender.com"     // frontend
+// ];
+
+// app.options('*', cors({
+//   origin: allowedOrigins,
+//   credentials: true
+// }));
 
 
 
