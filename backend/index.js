@@ -26,7 +26,7 @@ mongoose.connect(url)
 
 
 app.use(bodyParser.json());
-
+app.use(cookieParser());
 // app.use(cors({
 //   origin: [
 //     "https://zerodha-clone-6-9nwd.onrender.com/", // frontend app
@@ -42,13 +42,13 @@ const allowedOrigins = [
   "https://zerodha-clone-6-9nwd.onrender.com"     // frontend
 ];
 
-app.use(cors({
+app.options('*', cors({
   origin: allowedOrigins,
   credentials: true
 }));
 
 
-app.use(cookieParser());
+
 
 
 app.use("/", authRoute);
