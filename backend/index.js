@@ -29,7 +29,7 @@ app.use(bodyParser.json());
 
 app.use(cors({
   origin: [
-    "http://localhost:3001", // frontend app
+    "https://myzerodhclone.netlify.app/", // frontend app
     "http://localhost:3000", // dashboard app
   ],
   methods: ["GET", "POST", "PUT", "DELETE"],
